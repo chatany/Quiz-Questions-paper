@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #lalit{
+            background-color:green;
+            padding:10px;
+            margin-left: 90%;
+            
+        }
+        #submit{
+            background-color:green;
+            padding:10px;
+            margin-left: 50%;
+
+        }
+        #start{
+            font-size: larger;
+            margin-top: 50px;
+            background-color: rgb(177, 40, 40);
+        }
+        .container{
+            display: inline;
+            justify-content: center;
+            align-items: center;
+        }
+      
+    </style>
+
+</head>
+<body><div class="container">
+    <button onclick="start()" id="start" style="margin-left: 50px;">Start</button>
+    <div>
+        <h1 id="show"></h1>
+    <input type="radio" name="a" onclick="ram('a')" id="1" hidden><span id="5" hidden></span>
+    <input type="radio" name="a" onclick="ram('b')" id="2" hidden><span id="6"hidden></span>
+    <input type="radio" name="a" onclick="ram('c')" id="3" hidden><span id="7" hidden></span>
+    <input type="radio" name="a" onclick="ram('d')" id="4" hidden><span id="8" hidden></span>
+    <br><br><br>
+    <button onclick="lalit()" id="lalit" hidden >Next</button>
+    </div>
+    <h1 id="score"></h1>
+    <br><br>
+    <button onclick="submit()" id="submit" hidden>submit</button>
+
+ </div>
+
+    <script src="./dom2.js"></script>
+    
+</body>
+</html>
